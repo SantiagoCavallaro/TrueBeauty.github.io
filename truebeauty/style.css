@@ -1,0 +1,78 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    position: relative;
+    height: 800px;
+    background: #C33764;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(29, 37, 113, 0.603), rgba(195, 55, 99, 0.603)) , url("xd");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(29, 37, 113, 0.603), rgba(195, 55, 99, 0.603)) , url("/imgs/fondopantalla.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.prueba1 {
+    @media screen and (max-width: 768px) {
+        margin-top: 60px !important;
+    }
+}
+
+
+.prueba {
+    margin-top: 25px !important;
+    @media screen and (max-width: 768px) {
+        padding-top: 60px !important;
+    }
+}
+
+.wave {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.textoPlanetas {
+    text-align: center;
+    padding-bottom: 3%;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+#distanciap-contenido img {
+width: 100%;
+height: auto;
+}
+
+#distanciap-contenido h5 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+#distanciap-contenido p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-nav {
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-right: 30px;
+    text-align: center;
+    color: white;
+    background-color: #212529;
+    @media screen and (max-width: 768px) {
+        padding-right: 0px !important;
+        padding-top: 6% !important;
+    }
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
